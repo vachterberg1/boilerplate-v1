@@ -6,7 +6,7 @@ import theme from "../utils/styles/theme";
 const HomePage = () => {
   return (
     <Container>
-      <Title>Sample boilerplate - React Native</Title>
+      <Title>Sample boilerplate - React Native, TypeScript, Styled Components</Title>
     </Container>
   )
 }
