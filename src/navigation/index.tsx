@@ -1,7 +1,8 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomePage from '../screen/Home'
+import Main from '../screen/Main';
+import CarouselPage from '../screen/CarouselPage';
 
 
 
@@ -10,7 +11,8 @@ const RootNavigator = () => {
     return (
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name="Home" component={HomePage} options={{headerShown: false}}/>
+          <Stack.Screen name="Home" component={Main} options={{headerShown: false}}/>
+          <Stack.Screen name="Carousel" component={CarouselPage} options={{headerShown: false}}/>
         </Stack.Navigator>
       </NavigationContainer>
       
